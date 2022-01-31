@@ -6,16 +6,17 @@ namespace Met01
     {
         static void Main(string[] args)
         {
-            static void Saludar()
-            {
-                Console.WriteLine("Hola");
-            }
-
             for (int i = 0; i < 3; i++)
             {
                 Saludar();
             }
         }
+
+        static void Saludar()
+        {
+            Console.WriteLine("Hola");
+        }
     }
+
     
 }
